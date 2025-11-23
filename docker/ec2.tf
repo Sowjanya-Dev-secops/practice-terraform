@@ -15,7 +15,7 @@ resource "aws_instance" "terraform" {
 }
 
 resource "aws_security_group" "allow_all" {
-  name        = "allow_all"
+  name        = "allow_all_docker"
   description = "Allow TLS inbound traffic and all outbound traffic"
 
   egress {
